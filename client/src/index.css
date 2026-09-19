@@ -1,0 +1,139 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #222;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.business-card,
+.form-section,
+.suggestions {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.business-card h2 {
+  margin: 0 0 5px;
+}
+
+.business-card p {
+  margin: 0;
+  color: #666;
+}
+
+.stars {
+  display: flex;
+  gap: 8px;
+  margin: 15px 0 25px;
+}
+
+.star {
+  border: none;
+  background: transparent;
+  font-size: 35px;
+  cursor: pointer;
+  color: #ccc;
+}
+
+.star.selected {
+  color: #f5b301;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin: 15px 0 8px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.generate-button,
+.submit-button {
+  width: 100%;
+  border: none;
+  padding: 13px;
+  margin-top: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #111;
+  color: white;
+  font-weight: bold;
+}
+
+.generate-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.suggestion {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-top: 12px;
+}
+
+.suggestion p {
+  line-height: 1.5;
+}
+
+.suggestion button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.selected-review {
+  border: 2px solid #111;
+}
+
+.edit-section {
+  margin-top: 20px;
+}
+
+.message {
+  text-align: center;
+  font-weight: bold;
+}
+
